@@ -1,0 +1,3 @@
+- insert:
+    - id: file-path-repair
+      name: dsh-file-path-repair

@@ -1,0 +1,35 @@
+{
+  "name": "dsh-file-path-repair",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Restores path separators that Markdown escapes consumed before serving /api/file, so local images preview in every session and every model.",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "README.md",
+    "test/*.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "markdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baldovinmarques391-design/dsh-file-path-repair.git"
+  }
+}

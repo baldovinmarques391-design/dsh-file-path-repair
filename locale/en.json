@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Local image path repair",
+    "description": "Restores separators that Markdown escapes ate before serving a local file, so images preview whatever the model wrote."
+  }
+}

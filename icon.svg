@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="图片路径修复">
+  <!-- No backing plate. The frame is centred on the canvas; the status dot is the
+       only circle inside it, inset 1.75 from both the top and the right edge. -->
+  <rect x="2.8" y="3.6" width="18.4" height="16.8" rx="3.4" fill="none" stroke="#54626f" stroke-width="1.9"/>
+  <path d="M4.6 17.4 9.6 11.4l3.4 3.6 2.4-2.6 4 3.8" fill="none" stroke="#54626f" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="16.4" cy="8.4" r="2.1" fill="#2E9E6B"/>
+</svg>
